@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mapboxgl-ctrl {
+  display: none;
+}
+
+.mapboxgl-canvas,
+.mapboxgl-map,
+.mapboxgl-canvas-container {
+  height: 100%;
+  display: block;
+}
+
+.mapboxgl-canvas {
+  border-radius: 1rem;
+  border: 1px solid #e2e8f0;
+}

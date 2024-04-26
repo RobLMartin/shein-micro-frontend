@@ -1,0 +1,21 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Output of 'npm run build'
+build/
+dist/
+
+# Output of 'npm run start'
+.DS_Store
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env*.local
+.env*.development
+.env*.test
+.env*.production
